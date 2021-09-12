@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="icon" type="image/png" siz="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" size="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap">
   <title>Frontend Mentor - Order Summary Card</title>
 </head>
@@ -14,24 +14,24 @@
   <div class="wrapper">
     <div class="product">
       <div class="image-container">
-        <div class="image"></div>
+        <div role="image" class="image"></div>
       </div>
-      <div class="info">
-        <h2 class="title">Order Summary</h2>
+      <div role="info" class="info">
+        <h1 class="title">Order Summary</h1>
         <div class="para">You can now listen to millions of songs, audiobooks, and podcasts on any 
         device anywhere you like!
       </div>
-      <div href="#!" class="membership">
+      <div class="membership">
         <div style="width:40px;height:40px;background-image: url(./images/icon-music.svg);background-repeat: no-repeat; background-size: contain;top:10px;
         left:10px;"></div>
         <div class="plan_btn">
           <div class="annual">Annual Plan</div>
           <div class="price">$59.99/year</div>
         </div>
-        <a href="#!" class="change_btn">Change</a>
+        <a href="#!" role="button" class="change_btn">Change</a>
       </div>
-      <a href="#!" class="payment_btn">Proceed to Payment</a>
-      <a href="#!" class="cancel_btn">Cancel Order</a>
+      <a href="#!" role="button" class="payment_btn">Proceed to Payment</a>
+      <a href="#!" role="button" class="cancel_btn">Cancel Order</a>
     </div>
   </div>
 </body>
