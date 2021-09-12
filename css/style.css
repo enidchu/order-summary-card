@@ -14,13 +14,18 @@ h1{
 
 .wrapper{
     height: 100%;
+    display: flex;
+    align-items: center;
     background-image: url(../images/pattern-background-desktop.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: transparent;
     left: 0;
     top: 0;
+    right: 0;
+    bottom: 0;
 }
+
 @media screen and (max-width:768px){
     .wrapper{
         background-image: unset;
@@ -231,10 +236,9 @@ h1{
     background-color: white;
     box-shadow: 0 8px 36px rgba(0,0,0,0.3) ;
     border-radius: 12px;
-
     margin: 0 auto;
-    transform: translate(0, 25%);
 }
+
 .product .info{
     padding: 20px 20px;
 }
@@ -277,13 +281,13 @@ h1{
 @media screen and (max-width:540px){
     .product .para{
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 500;
     }
 }
 @media screen and (max-width:375px){
     .product .para{
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 500;
     }
 }
 
